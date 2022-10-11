@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		CCDA320E28F5C8EF0048535D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA320D28F5C8EF0048535D /* AppDelegate.swift */; };
 		CCDA321028F5C8EF0048535D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA320F28F5C8EF0048535D /* SceneDelegate.swift */; };
-		CCDA321228F5C8EF0048535D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA321128F5C8EF0048535D /* ViewController.swift */; };
-		CCDA321528F5C8EF0048535D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDA321328F5C8EF0048535D /* Main.storyboard */; };
+		CCDA321228F5C8EF0048535D /* VirificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA321128F5C8EF0048535D /* VirificationViewController.swift */; };
 		CCDA321728F5C8F10048535D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDA321628F5C8F10048535D /* Assets.xcassets */; };
 		CCDA321A28F5C8F10048535D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDA321828F5C8F10048535D /* LaunchScreen.storyboard */; };
+		CCDA322728F5CF640048535D /* StatusLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA322628F5CF640048535D /* StatusLable.swift */; };
+		CCDA322B28F5D2A90048535D /* UIStackView + Extansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA322A28F5D2A90048535D /* UIStackView + Extansions.swift */; };
+		CCDA322D28F5D5C00048535D /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA322C28F5D5C00048535D /* MailTextField.swift */; };
+		CCDA322F28F5D7E80048535D /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA322E28F5D7E80048535D /* VerificationButton.swift */; };
+		CCDA323128F5D9640048535D /* MailsCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA323028F5D9640048535D /* MailsCollectionView.swift */; };
+		CCDA323428F5DBB50048535D /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA323328F5DBB50048535D /* MailCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CCDA320A28F5C8EF0048535D /* VerificationMailTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerificationMailTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDA320D28F5C8EF0048535D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCDA320F28F5C8EF0048535D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCDA321128F5C8EF0048535D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCDA321428F5C8EF0048535D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCDA321128F5C8EF0048535D /* VirificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirificationViewController.swift; sourceTree = "<group>"; };
 		CCDA321628F5C8F10048535D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCDA321928F5C8F10048535D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCDA321B28F5C8F10048535D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDA322628F5CF640048535D /* StatusLable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLable.swift; sourceTree = "<group>"; };
+		CCDA322A28F5D2A90048535D /* UIStackView + Extansions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extansions.swift"; sourceTree = "<group>"; };
+		CCDA322C28F5D5C00048535D /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
+		CCDA322E28F5D7E80048535D /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
+		CCDA323028F5D9640048535D /* MailsCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailsCollectionView.swift; sourceTree = "<group>"; };
+		CCDA323328F5DBB50048535D /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,84 @@
 		CCDA320C28F5C8EF0048535D /* VerificationMailTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				CCDA320D28F5C8EF0048535D /* AppDelegate.swift */,
-				CCDA320F28F5C8EF0048535D /* SceneDelegate.swift */,
-				CCDA321128F5C8EF0048535D /* ViewController.swift */,
-				CCDA321328F5C8EF0048535D /* Main.storyboard */,
-				CCDA321628F5C8F10048535D /* Assets.xcassets */,
-				CCDA321828F5C8F10048535D /* LaunchScreen.storyboard */,
-				CCDA321B28F5C8F10048535D /* Info.plist */,
+				CCDA322228F5C9B20048535D /* Models */,
+				CCDA322428F5CA000048535D /* Views */,
+				CCDA322528F5CA080048535D /* Controllers */,
+				CCDA322828F5D25C0048535D /* Extansions */,
+				CCDA322128F5C99A0048535D /* Application */,
+				CCDA322328F5C9D00048535D /* Resources */,
 			);
 			path = VerificationMailTestTask;
+			sourceTree = "<group>";
+		};
+		CCDA322128F5C99A0048535D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA320D28F5C8EF0048535D /* AppDelegate.swift */,
+				CCDA320F28F5C8EF0048535D /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CCDA322228F5C9B20048535D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCDA322328F5C9D00048535D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA321828F5C8F10048535D /* LaunchScreen.storyboard */,
+				CCDA321628F5C8F10048535D /* Assets.xcassets */,
+				CCDA321B28F5C8F10048535D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CCDA322428F5CA000048535D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA323228F5DA990048535D /* Cells */,
+				CCDA322628F5CF640048535D /* StatusLable.swift */,
+				CCDA322C28F5D5C00048535D /* MailTextField.swift */,
+				CCDA322E28F5D7E80048535D /* VerificationButton.swift */,
+				CCDA323028F5D9640048535D /* MailsCollectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CCDA322528F5CA080048535D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA321128F5C8EF0048535D /* VirificationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CCDA322828F5D25C0048535D /* Extansions */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA322928F5D28C0048535D /* UIKit */,
+			);
+			path = Extansions;
+			sourceTree = "<group>";
+		};
+		CCDA322928F5D28C0048535D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA322A28F5D2A90048535D /* UIStackView + Extansions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		CCDA323228F5DA990048535D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA323328F5DBB50048535D /* MailCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +206,6 @@
 			files = (
 				CCDA321A28F5C8F10048535D /* LaunchScreen.storyboard in Resources */,
 				CCDA321728F5C8F10048535D /* Assets.xcassets in Resources */,
-				CCDA321528F5C8EF0048535D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +216,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCDA321228F5C8EF0048535D /* ViewController.swift in Sources */,
+				CCDA322B28F5D2A90048535D /* UIStackView + Extansions.swift in Sources */,
+				CCDA323428F5DBB50048535D /* MailCollectionViewCell.swift in Sources */,
+				CCDA322F28F5D7E80048535D /* VerificationButton.swift in Sources */,
+				CCDA322728F5CF640048535D /* StatusLable.swift in Sources */,
+				CCDA322D28F5D5C00048535D /* MailTextField.swift in Sources */,
+				CCDA321228F5C8EF0048535D /* VirificationViewController.swift in Sources */,
+				CCDA323128F5D9640048535D /* MailsCollectionView.swift in Sources */,
 				CCDA320E28F5C8EF0048535D /* AppDelegate.swift in Sources */,
 				CCDA321028F5C8EF0048535D /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +231,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CCDA321328F5C8EF0048535D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCDA321428F5C8EF0048535D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CCDA321828F5C8F10048535D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +365,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6QGWXNWMFJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VerificationMailTestTask/Info.plist;
+				INFOPLIST_FILE = VerificationMailTestTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +392,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6QGWXNWMFJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VerificationMailTestTask/Info.plist;
+				INFOPLIST_FILE = VerificationMailTestTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
